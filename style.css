@@ -1,0 +1,244 @@
+.hide {
+  display: none;
+}
+
+.form-signup{
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 3);
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('background2.jpeg');
+  background-size: cover;
+}
+.form-signup h1{
+  color: #04BFAD;
+  margin-bottom: 30px;
+}
+
+#username {
+  border-radius: 20px;
+  padding: 3px;
+  margin: 5px 0;
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+}
+
+#password {
+  border-radius: 20px;
+  padding: 3px;
+  margin: 5px 0;
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+}
+
+#password-retype{
+  border-radius: 20px;
+  padding: 3px;
+  margin: 5px 0;
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+}
+button{
+  color: black;
+  background-color: #FAA5B3;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.twitter-btn{
+  background-color: #83D6D2;
+}
+a{
+
+  text-decoration: none;
+}
+hr{
+  margin-top: 20px;
+  width: 80%;
+}
+
+#nav{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  padding: 3px 1px;
+  background-color: #FAA5B3;
+  list-style-type: none;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  height: 40px;
+  opacity: 0.5;
+}
+
+#nav li{
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  float: right;
+  margin: 5px 30px;
+  text-align: center;
+}
+
+header{
+  margin-top: 80px;
+}
+
+#nav li a{
+  display: block;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #F250A9;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 7px 8px;
+  margin: 0;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba (0, 0, 0, 1);
+  text-align: center;
+}
+
+#nav li:hover > a{
+  background: #FAC4C4;
+  color: #705E78;
+  margin: 0;
+  padding: 5px;
+}
+
+#nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  width: 105;
+  background: #FAC4C4;
+  text-align: center;
+  opacity: 0;
+}
+
+#nav ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+#nav ul a {
+  font-size: small;
+  font-weight: normal;
+  color: #705E78;;
+}
+#nav ul li:hover a{
+  background: #D8C7D9;;
+  font-weight: bold;
+}
+
+#nav li:hover ul {
+  opacity: 1;
+}
+
+#nav li:hover ul{
+  height: 35px;
+  overflow: visible;
+  padding: 0;
+}
+#header{
+  text-align: center;
+  color: #04BFAD;
+  font-weight: bold;
+  font-size: 4em;
+  cursor: pointer;
+}
+
+.wrap {
+	position: absolute;
+	top: 65%;
+	left: 48%;
+	margin-top: -86px;
+	margin-left: -89px;
+	text-align: center;
+}
+
+a {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: block;
+	margin: 20px auto;
+	max-width: 180px;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 20px 30px;
+}
+
+a.button {
+	color: rgba(30, 22, 54, 0.6);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+  background-color: #7EBFD9;
+  border: 0;
+  outline: 0;
+  opacity: 0.9;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+
+a.button:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+.failure-message {
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #858377;
+}
+
+.success-message {
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #858377;
+}
+
+.mismatch-message  {
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #858377;
+}
+
+.password-message-wrap{
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #858377;
+}
+
+.match-message{
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #858377;
+}
+

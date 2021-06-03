@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="validator.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1 id="header">
+      Welcome to Busan !
+    </h1>
+  </header>
+
+    <ul id="nav">
+      <li > <a href="#">관광명소</a>
+        <ul>
+          <li>
+            <a href="#">해운대</a>
+          </li>
+          <li>
+            <a href="#">광안리</a>
+          </li>
+        </ul>
+      </li>
+      
+      <li> <a href="#">부산의 역사</a>
+        <ul>
+          <li>
+            <a href="#">피난민의 도시</a>
+          </li>
+          <li>
+            <a href="#">관광의 역사</a>
+          </li>
+        </ul>
+      </li>
+
+      <li> <a href="#">부산의 자랑</a>
+        <ul>
+          <li>
+            <a href="#">이건우</a>
+          </li>
+          <li>
+            <a href="#">나</a>
+          </li>
+        </ul>
+      </li>
+
+      <li > <a href="#">부산의 음식</a>
+        <ul>
+          <li>
+            <a href="#">돼지국밥</a>
+          </li>
+          <li>
+            <a href="#">암소갈비</a>
+          </li>
+          <li>
+            <a href="#">회</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+
+  <!-- 동영상 강의에 나온 코드를 그대로 실습하세요 -->
+  <div class="form-signup hide">
+    <h1> Sign Up Now</h1>
+    <form>
+      
+      <label>아이디<span>*</span></label>
+      <input type="text" id="username" placeholder="Enter your Username">    
+      <div class="failure-message hide">아이디는 네글자 이상 이어야 합니다.</div>
+      <div class="success-message hide">사용 할 수 있는 아이디입니다.</div>
+      
+
+     
+        <label>비밀번호<span>*</span></label>
+       <input type="password" id = 'password' placeholder="Enter your password">  
+       <div class='password-message-wrap'>
+        <span class='passwordLength hide'>10자 이상 입력</span>
+        <span class='passwordEng hide'>영문/숫자/특수문자(공백 제외)만 허용하며, 2개 이상 조합</span>
+        <span class='passwordSame hide'>동일한 숫자 3개 이상 연속 사용 불가</span>
+        <span class='passwordUpper hide'>영어 대문자 하나 이상 포함</span>
+       </div>
+      
+       <label>비밀번호 확인 <span>*</span></label>
+       <input type="password" id = 'password-retype' placeholder="Password again">
+       <div class='mismatch-message hide'>비밀번호가 일치하지 않습니다</div>
+       <div class="match-message hide">비밀번호가 일치합니다</div>
+      
+      <p>
+        <span>
+          <input type="checkbox">
+        </span> 
+        회원가입에 동의 하십니까 ?
+      </p>
+     <button type="button" class="sign-btn">회원가입</button>
+     <hr>
+     <p class="or">Or</p>
+     <button type="button" class="twitter-btn">Login with Twiter</button>
+     <p>이미 회원이십니까? <a href="#">Sign in</a></p>
+    </form>
+  </div>
+ 
+     <div class="wrap">
+      <a href="#" class="button">Sign up! Travel to Busan!</a>
+     </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
